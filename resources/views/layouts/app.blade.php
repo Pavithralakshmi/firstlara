@@ -56,6 +56,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="contact">Contact</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="team">Our Team</a>
+                </li>
             </ul>
             <span class="navbar-text">
                 <span style="color:rgba(255, 16, 16, 0.9);"> Website: </span> www.nithra.mobi

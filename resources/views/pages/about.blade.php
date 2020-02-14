@@ -23,6 +23,6 @@
 
 @section('footer')
 <nav class="container navbar fixed-bottom navbar-light bg-light" style="text-align-last: center;">
-    <a class="navbar-brand" href="#">© 2013-2020 Nithra Apps India Pvt Ltd.<br>Designed with </a>
+    <a class="navbar-brand" href="#">© 2013-2020 {{$company}}.<br>Designed with </a>
 </nav>
 @endsection

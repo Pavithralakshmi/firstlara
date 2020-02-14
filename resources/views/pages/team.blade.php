@@ -4,8 +4,8 @@
 @section('content')
 <div class="jumbotron jumbotron-fluid">
     <div class="container">
-        <h1 class="display-4">Home</h1>
-        <p class="lead">Home Page Content</p>
+        <h1 class="display-4">Our Team</h1>
+        <p class="lead">Team Page Content</p>
     </div>
 </div>
 <a class="btn btn-primary btn-lg" style="float:right;" href="home" role="button">Go To About Us</a>
