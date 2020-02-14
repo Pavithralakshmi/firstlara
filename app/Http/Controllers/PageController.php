@@ -8,7 +8,12 @@ class PageController extends Controller
 {
     public function home()
     {
-        return view('pages.home', ['company' => 'Nithra Info Solutions']);
+        date_default_timezone_set('Asia/Calcutta');
+        $hour = date('G');
+        return view('pages.home',[
+            'company' => 'Nithra Info Solutions',
+           'hour' => $hour 
+           ]);
     }
     public function about()
     {
@@ -20,6 +25,8 @@ class PageController extends Controller
     }
     public function team()
     {
-        return view('pages.team', ['company' => 'Nithra Info Solutions']);
+        return view('pages.team', [
+            'company' => 'Nithra Info Solutions',
+        'totalmembers' => 50]);
     }
 }
