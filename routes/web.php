@@ -14,6 +14,7 @@ Route::get('/', 'PageController@home');
 Route::get('/about', 'PageController@about');
 Route::get('/contact', 'PageController@contact');
 Route::get('/team', 'PageController@team');
+Route::get('/post', 'PostController@index');
 
 // Route::get('about', function () {
 //     return view('pages.about');
