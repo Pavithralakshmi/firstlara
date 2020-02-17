@@ -60,6 +60,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="team">Our Team</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="post">Blog</a>
+                </li>
             </ul>
             <span class="navbar-text">
                 <span style="color:rgba(255, 16, 16, 0.9);"> Website: </span> www.nithra.mobi
