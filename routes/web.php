@@ -15,6 +15,9 @@ Route::get('/about', 'PageController@about');
 Route::get('/contact', 'PageController@contact');
 Route::get('/team', 'PageController@team');
 Route::get('/post', 'PostController@index');
+Route::get('/create', 'PostController@create');
+Route::post('/create', 'PostController@store');
+// Route::resource('post', 'PostController');
 
 // Route::get('about', function () {
 //     return view('pages.about');

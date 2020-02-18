@@ -72,56 +72,56 @@
     </nav>
 
 
-                <div class="container" style="margin-top: 28px;">
-                    @yield('content')
-                </div>
-                <div class="container">
-                    <p class="buttonalign">
-                        <button class="btn btn-success" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Mobile App Development</button>
-                        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Web Development</button>
-                        <button class="btn btn-warning" type="button" data-toggle="collapse" role="button" data-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3">Web Designing</button>
-                        <button class="btn btn-info" type="button" data-toggle="collapse" role="button" data-target="#multiCollapseExample4" aria-expanded="false" aria-controls="multiCollapseExample4">Social Media and Digital Marketing</button>
-                    </p>
-                    <div class="row">
-                        <div class="col-md-3">
-                            <div class="collapse multi-collapse" id="multiCollapseExample1">
-                                <div class="card card-body">
-                                    You decide your needs, We deliver as an App.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="collapse multi-collapse" id="multiCollapseExample2">
-                                <div class="card card-body">
-                                    Take charge of the online world with Web Development, Move your business to the next level.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="collapse multi-collapse" id="multiCollapseExample3">
-                                <div class="card card-body">
-                                    To get your website accessible on the endless screens.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="collapse multi-collapse" id="multiCollapseExample4">
-                                <div class="card card-body">
-                                    Get More Traffic, Awareness and Engagement.
-                                </div>
-                            </div>
-                        </div>
+    <div class="container" style="margin-top: 28px;    min-height: max-content;">
+        @yield('content')
+    </div>
+    <div class="container">
+        <p class="buttonalign">
+            <button class="btn btn-success" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Mobile App Development</button>
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Web Development</button>
+            <button class="btn btn-warning" type="button" data-toggle="collapse" role="button" data-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3">Web Designing</button>
+            <button class="btn btn-info" type="button" data-toggle="collapse" role="button" data-target="#multiCollapseExample4" aria-expanded="false" aria-controls="multiCollapseExample4">Social Media and Digital Marketing</button>
+        </p>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="collapse multi-collapse" id="multiCollapseExample1">
+                    <div class="card card-body">
+                        You decide your needs, We deliver as an App.
                     </div>
                 </div>
-                <div class="container">
-                    <nav class="navbar fixed-bottom navbar-light bg-light" style="text-align-last: center;">
-                        <a class="navbar-brand" href="#">© 2013-2020 Nithra Apps India Pvt Ltd.<br>Designed with </a>
-                    </nav>
+            </div>
+            <div class="col-md-3">
+                <div class="collapse multi-collapse" id="multiCollapseExample2">
+                    <div class="card card-body">
+                        Take charge of the online world with Web Development, Move your business to the next level.
+                    </div>
                 </div>
+            </div>
+            <div class="col-md-3">
+                <div class="collapse multi-collapse" id="multiCollapseExample3">
+                    <div class="card card-body">
+                        To get your website accessible on the endless screens.
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="collapse multi-collapse" id="multiCollapseExample4">
+                    <div class="card card-body">
+                        Get More Traffic, Awareness and Engagement.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="">
+        <nav class="navbar  navbar-expand-lg navbar-light bg-light" style="text-align-last: center;">
+            <a class="navbar-brand" href="#">© 2013-2020 Nithra Apps India Pvt Ltd.<br>Designed with </a>
+        </nav>
+    </div>
 
-                <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-                <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 
 </html>

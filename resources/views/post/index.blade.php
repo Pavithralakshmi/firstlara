@@ -10,6 +10,7 @@
 </div>
 @endsection
 @section('content')
+<a class="btn btn-primary btn-lg" style="float:right;" href="create" role="button">create Data</a>
 
 {{ $posts->links() }}
 <div class="card-deck">
