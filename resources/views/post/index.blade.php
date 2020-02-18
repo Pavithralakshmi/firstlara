@@ -20,7 +20,8 @@
             <img class="card-img-top" src="{{ $post->image }}" alt="Card image cap" height="230px">
             <div class="card-body">
                 <h2>{{ $post->title }}</h2>
-                <p class="card-text">{{ $post->desc }}</p>
+                <p class="card-text">{!! Illuminate\Support\Str::words( $post->desc, 10, ' ...') !!} </p>
+                <!-- <p class="card-text">{{$post->desc}} </p> -->
             </div>
         </div>
     </div>

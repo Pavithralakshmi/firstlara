@@ -115,7 +115,9 @@
     </div>
     <div class="">
         <nav class="navbar  navbar-expand-lg navbar-light bg-light" style="text-align-last: center;">
-            <a class="navbar-brand" href="#">© 2013-2020 Nithra Apps India Pvt Ltd.<br>Designed with </a>
+            <a class="navbar-brand" href="#">
+                <p style="color: azure;margin: inherit;">© 2013-2020 Nithra Apps India Pvt Ltd.<br>Designed with </p>
+            </a>
         </nav>
     </div>
 
