@@ -11,11 +11,16 @@
 @endsection
 @section('content')
 <a class="btn btn-primary btn-lg" style="float:right;" href="create" role="button">create Data</a>
-
+@if(session()->has('message'))
+<div class="alert alert-success">
+    {{ session()->get('message') }}
+</div>
+@endif
 {{ $posts->links() }}
+
 <div class="card-deck">
     @foreach($posts as $post)
-    <div class="col-lg-4">
+    <div class="col-lg-4" style="margin-bottom: 20px;">
         <div class="card">
             <img class="card-img-top" src="{{ $post->image }}" alt="Card image cap" height="230px">
             <div class="card-body">

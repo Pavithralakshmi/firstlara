@@ -1,9 +1,10 @@
 <?php
 
 namespace App\Http\Controllers;
-
 use Illuminate\Http\Request;
 use App\Post;
+use Illuminate\Support\Facades\Redirect;
+
 
 class PostController extends Controller
 {
@@ -14,8 +15,9 @@ class PostController extends Controller
      */
     public function index()
     {
-        $posts =Post::paginate(3);
-        return view('post.index',compact('posts'), ['company' => 'Nithra Info Solutions']);
+        // print_r('welcome');die();
+        $posts =Post::paginate(6);
+        return  view('post.index',compact('posts'), ['company' => 'Nithra Info Solutions']);
     }
 
     /**
@@ -37,6 +39,8 @@ class PostController extends Controller
     public function store(Request $request)
     {
         Post::create($request->all());
+        // return redirect()->back()->with('message', 'IT WORKS!');
+        return Redirect::to('post')->with('message', 'Successfully Added');
     }
 
     /**
